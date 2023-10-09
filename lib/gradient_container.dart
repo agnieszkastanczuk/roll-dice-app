@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:rolldiceapp/styled_text.dart';
 
+const startAlignment = Alignment.topLeft;
+const endAligment = Alignment.bottomRight;
+
 class GradientContainer extends StatelessWidget {
   const GradientContainer({super.key});
 
@@ -13,8 +16,8 @@ class GradientContainer extends StatelessWidget {
             Colors.pink,
             Colors.white24,
           ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
+          begin: startAlignment,
+          end: endAligment,
         ),
       ),
       child: const Center(
